@@ -1,7 +1,7 @@
 package se.lexicon.exceptions.workshop.domain;
 
 public class Person {
-	private String firstName;
+    private String firstName;
     private String lastName;
     private Gender gender;
 
