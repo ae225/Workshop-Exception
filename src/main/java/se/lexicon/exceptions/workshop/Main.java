@@ -19,7 +19,6 @@ public class Main {
 
             NameService nameService = new NameService(maleFirstNames, femaleFirstNames, lastNames);
 
-            // Adding a new name (for testing)
             try {
                 nameService.addFemaleFirstName("Emma");
             } catch (DuplicateNameException e) {
